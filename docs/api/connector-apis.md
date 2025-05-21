@@ -44,3 +44,7 @@ The `STS API` is responsible for generating `ID-Tokens` to access the `Presentat
 ## DID Document
 
 The `DID Document` can of a Connector viewed by sending a `GET` request to `/connector/<connector-name>/did.json`.
+
+## Vault Token
+
+The vault token to access the `Hashicorp Vault` at [vault.adsel.space](https://vault.adsel.space) can be retrieved by making a `GET` request to `/connectors/<connector-name>/vault/token`. The vault can be used to provide the Connector with confidential information thourgh there rather than sending them directly in requests to the Connector.

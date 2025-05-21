@@ -67,6 +67,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - mkdocs-jupyter
 
 extra:
   social:
@@ -103,3 +104,10 @@ nav:
     - api/federated.md
     - api/bdrs.md
     - api/issuer.md
+  - Jupyter:
+    - jupyter/index.md
+    - jupyter/offer-file-amazon.ipynb
+    - jupyter/offer-file-azure.ipynb
+    - jupyter/negotiate-offer.ipynb
+    - jupyter/transfer-file-amazon.ipynb
+    - jupyter/transfer-file-azure.ipynb
