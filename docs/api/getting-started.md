@@ -13,7 +13,7 @@ To use most API endpoints you need to provide a bearer token ([JWT](https://de.w
 Now you can get the token by sending a request to the [Token Endpoint](https://sso.adsel.space/realms/user/protocol/openid-connect/token) of [Keycloak](https://github.com/keycloak/keycloak) using the certificate files. Concrete instructions on how to do this with several tools are [further below](#example-requests).
 
 The response should look something like this
-```
+```json
 {
   "access_token": "ey...",
   "expires_in": 28800,
@@ -25,7 +25,9 @@ The response should look something like this
 }
 ```
 
-For most API requests, you must include the `access_token` in the `Authorization` header using the format: `Authorization: Bearer <your-access-token>`. This token is valid for 8 hours, after which you will need to send another request to get a new one.
+For most API requests, you must include the `access_token` in the `Authorization` header using the format: `Authorization: Bearer <your-access-token>`. Such endpoints will hereafter be referred to as 'protected'.
+
+Note that this token is valid for 8 hours, after which you will need to send another request to get a new one.
 
 ## Example requests
 

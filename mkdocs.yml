@@ -98,3 +98,8 @@ nav:
   - API:
     - api/index.md
     - api/getting-started.md
+    - api/connectors.md
+    - api/connector-apis.md
+    - api/federated.md
+    - api/bdrs.md
+    - api/issuer.md
