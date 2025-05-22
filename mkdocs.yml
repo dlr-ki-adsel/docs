@@ -95,7 +95,9 @@ copyright: |
 
 nav:
   - Home:
-    - index.md
+    - home/index.md
+    - home/account.md
+    - home/references.md
   - API:
     - api/index.md
     - api/getting-started.md
