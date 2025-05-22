@@ -108,6 +108,9 @@ nav:
     - jupyter/index.md
     - jupyter/offer-file-amazon.ipynb
     - jupyter/offer-file-azure.ipynb
+    - jupyter/offer-service-http.ipynb
     - jupyter/negotiate-offer.ipynb
     - jupyter/transfer-file-amazon.ipynb
     - jupyter/transfer-file-azure.ipynb
+    - jupyter/transfer-http-push.ipynb
+    - jupyter/transfer-http-pull.ipynb
