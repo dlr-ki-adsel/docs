@@ -114,3 +114,4 @@ nav:
     - jupyter/transfer-file-azure.ipynb
     - jupyter/transfer-http-push.ipynb
     - jupyter/transfer-http-pull.ipynb
+    - jupyter/policies.ipynb
