@@ -100,6 +100,8 @@ nav:
     - home/index.md
     - home/account.md
     - home/references.md
+  - Website:
+    - frontend/frontend.md
   - API:
     - api/index.md
     - api/getting-started.md
