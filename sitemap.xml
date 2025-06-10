@@ -2,86 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.adsel.space/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/api/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/api/bdrs/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/api/connector-apis/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/api/connectors/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/api/federated/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/api/getting-started/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/api/issuer/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.adsel.space/frontend/frontend/</loc>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/home/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/home/account/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/home/references/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/negotiate-offer/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/offer-file-amazon/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/offer-file-azure/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/offer-service-http/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/policies/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/transfer-file-amazon/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/transfer-file-azure/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/transfer-http-pull/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
     <url>
          <loc>https://docs.adsel.space/jupyter/transfer-http-push/</loc>
-         <lastmod>2025-05-27</lastmod>
+         <lastmod>2025-06-10</lastmod>
     </url>
 </urlset>
