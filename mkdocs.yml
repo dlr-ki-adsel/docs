@@ -103,7 +103,6 @@ nav:
   - Website:
     - frontend/index.md
     - frontend/dashboard.md
-    - frontend/connectors.md
     - frontend/assets.md
     - frontend/catalog.md
     - frontend/agreements.md
