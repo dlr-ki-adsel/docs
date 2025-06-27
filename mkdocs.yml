@@ -100,6 +100,12 @@ nav:
     - home/index.md
     - home/account.md
     - home/references.md
+  - Website:
+    - frontend/index.md
+    - frontend/dashboard.md
+    - frontend/assets.md
+    - frontend/catalog.md
+    - frontend/agreements.md
   - API:
     - api/index.md
     - api/getting-started.md
