@@ -1903,10 +1903,10 @@ for catalog in federated_catalog:
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">catalog_from</span> <span class="o">=</span> <span class="s2">"https://api.adsel.space/connectors/alice/dsp"</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">catalog_from</span> <span class="o">=</span> <span class="s2">"some-catalog-from"</span>
 <span class="n">offer_for</span> <span class="o">=</span> <span class="s2">"some-offer-name"</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-4">catalog_from = "https://api.adsel.space/connectors/alice/dsp"
+<div class="clipboard-copy-txt" id="cell-4">catalog_from = "some-catalog-from"
 offer_for = "some-offer-name"</div>
 </div>
 </div>
@@ -2120,7 +2120,7 @@ print(f"Started Negotiation with ID: {negotiation_id}")</div>
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">base_url</span><span class="si">}</span><span class="s2">/backend/connectors/</span><span class="si">{</span><span class="n">connector_name</span><span class="si">}</span><span class="s2">/management/v3/contractnegotiations/</span><span class="si">{</span><span class="n">negotiation_id</span><span class="si">}</span><span class="s2">"</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">base_url</span><span class="si">}</span><span class="s2">/connectors/</span><span class="si">{</span><span class="n">connector_name</span><span class="si">}</span><span class="s2">/management/v3/contractnegotiations/</span><span class="si">{</span><span class="n">negotiation_id</span><span class="si">}</span><span class="s2">"</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">token_header</span><span class="p">)</span>
 <span class="n">response</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>
@@ -2132,7 +2132,7 @@ print(f"Started Negotiation with ID: {negotiation_id}")</div>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Originator: </span><span class="si">{</span><span class="n">originator</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Agreement ID: </span><span class="si">{</span><span class="n">agreement_id</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-7">url = f"{base_url}/backend/connectors/{connector_name}/management/v3/contractnegotiations/{negotiation_id}"
+<div class="clipboard-copy-txt" id="cell-7">url = f"{base_url}/connectors/{connector_name}/management/v3/contractnegotiations/{negotiation_id}"
 
 response = requests.get(url, headers=token_header)
 response.raise_for_status()
